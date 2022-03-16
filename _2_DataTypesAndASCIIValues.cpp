@@ -141,5 +141,7 @@ ULLONG_MIN (unsigned long long) = 18446744073709551615
 	
 	*/
 	
+	//Source: https://docs.microsoft.com/en-us/cpp/c-language/cpp-integer-limits?view=msvc-170
+	//Source: https://www.geeksforgeeks.org/wide-char-and-library-functions-in-c/
 	
 }
