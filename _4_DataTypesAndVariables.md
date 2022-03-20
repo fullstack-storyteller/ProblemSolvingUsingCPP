@@ -23,3 +23,19 @@
 - `int rollno =10;`
 - `char group = 'A';`
 - `float price = 12.75f;` Remember writting 'f' is necessary otherwise, the compiler will treat it as 'double'
+
+**Note:** Refer the program in the .cpp files to see how different variables are being used.
+
+## Invalid variable names
+
+Some examples:
+
+| Valid        | Invalid      |
+| ------------ | ------------ |
+| int x1;      | int 1x;      |
+| int rollno;  | int roll no; |
+| int roll_no; | int rollNo;  |
+
+**Note:** Refer the program in the .cpp files to see how different variables are being name.
+
+**Note:** Always use meaningful names for your variables.
