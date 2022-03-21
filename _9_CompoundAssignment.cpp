@@ -13,5 +13,18 @@ int main(){
 	cout << "After (a&=b), i.e. a=a&b, the value of a = "<<a<<endl;
 	a|=b;
 	cout << "After (a|=b), i.e. a=a|b, the value of a = "<<a<<endl;
+	
+	int x=5, y=0;
+	cout << "Before Increment operation: x = "<<x <<" and y = "<<y<<endl;
+	y=x++;
+	cout << "Post Increment (y=x++): x = "<<x<<" and y = "<<y<<endl;
+	y=++x;
+	cout << "Pre Increment (y=++x): x = "<<x<<" and y = "<<y<<endl;
+	y=x--;
+	cout << "Post Decrement (y=x--): x = "<<x<<" and y = "<<y<<endl;
+	y=--x;
+	cout << "Pre Decrement (y=--x): x = "<<x<<" and y = "<<y<<endl;
+	cout<< "(2*++x+2*x++) = "<<(2*++x+2*x++)<<" and x = "<<x<<endl;//got 26 as output but every compiler might differ how it intepret this expression. hence avoid using post/pre increments like this.
+	cout<< "(2*x+++2*++x) = "<<(2*x+++2*++x)<<" and x = "<<x<<endl;//got 32, 9
 	return 0;
 }
