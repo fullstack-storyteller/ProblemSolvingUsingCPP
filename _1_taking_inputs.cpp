@@ -16,6 +16,10 @@ int main(){
 	cout<<"Enter your name again: ";
 	getline(cin, name);
 	
-	//take the first word only even if multiple words supplied using spaces given
+	//read the entire line
+	/*
+	Enter your name again: mansoon verma
+	Your full name is mansoon verma
+	*/
 	cout<<"Your full name is "<<name<<endl; 
 }

@@ -5,7 +5,7 @@ int main(){
 	char capitalAlphabets[26] = {'A', 'B', 'C', 'D', 'E', 'F','G', 'H', 'I', 'J', 'K', 'L', 'M','N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
 	char arrayOfInt[10] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 	for(auto x: capitalAlphabets){
-		//toascii(char)
+		//toascii(char) - it takes a character as input
 		cout << "ASCII Value of "<< x << ": "<<toascii(x)<<endl; //65-90
 	}
 	cout <<endl;
