@@ -11,13 +11,21 @@ int main(){
 	cout<< "[INT_MIN] y => "<<y<<endl;
 	--y;
 	cout<< "after --y => "<<y<<endl;
-	cout<< "[INT_MAX] => "<<y<<endl;
+	cout<< "[INT_MAX] => "<<INT_MAX<<endl;
+	
 	cout<< endl;
 	char x=CHAR_MAX;
 	cout<< "[CHAR_MAX] or x => "<<x<<endl;
 	++x;
 	cout<< "after ++x => "<<x<<endl; //this is overflow
-	cout<< "[CHAR_MIN] => "<<x<<endl;
+	cout<< "[CHAR_MIN] => "<<(char)CHAR_MIN<<endl;
+	
+	cout<< endl;
+	char z=CHAR_MAX;
+	cout<< "[CHAR_MAX] or z => "<<(int)z<<endl;
+	++z;
+	cout<< "after ++z => "<<(int)z<<endl; //this is overflow
+	cout<< "[CHAR_MIN] => "<<(int)CHAR_MIN<<endl;
 	return 0;
 }
 
