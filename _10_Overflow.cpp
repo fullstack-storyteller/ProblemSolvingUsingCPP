@@ -10,7 +10,7 @@ int main(){
 	int y=INT_MIN;
 	cout<< "[INT_MIN] y => "<<y<<endl;
 	--y;
-	cout<< "after --y => "<<y<<endl;
+	cout<< "after --y => "<<y<<endl; //this is underflow
 	cout<< "[INT_MAX] => "<<INT_MAX<<endl;
 	
 	cout<< endl;
