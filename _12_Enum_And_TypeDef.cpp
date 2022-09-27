@@ -30,7 +30,7 @@ Can be applied to other user defined types.
 #include<iostream>
 using namespace std;
 enum days {mon, tue, web, thru, fri, sat, sun};
-enum departments {CS=1, ECE, CIVIL=5, MECH};
+enum departments {CS=1, ECE, CIVIL=5, MECH, GEOLOGY};
 typedef int marks;
 typedef int rollno;
 
@@ -55,10 +55,12 @@ int main(){
 	cout<<"dep = "<<dep<<endl; //5
 
 	dep =ECE;
-	cout<<"dep = "<<dep<<endl; //2
+	cout<<"dep = "<<dep<<endl<< endl; //2
 	
 	
 	marks m1=9, m2=10, m3=11;	
 	rollno r1=9, r2=10, r3=11;
 	//both the line above are valid integers	
+	
+	cout << "sizeof(departments) = "<< sizeof(departments)<<endl; //4 = size of Int
 }
